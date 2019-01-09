@@ -1,0 +1,23 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height:auto;
+    color:white;
+    background-color:rgba(0,0,0,0.5);
+  }
+  body{
+    position:relative;
+  }
+  .footer a{
+    color:white  ;
+  }
+  .footer a:hover{
+    color: #0B5345 ;
+  }
+  
+  .copyright
+  {
+    background-color:black;
+  }

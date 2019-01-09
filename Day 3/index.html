@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="custom.css">
+<style>
+  
+.card
+{
+  border:1px solid black;
+  border-radius:3%;
+box-shadow: 4px 4px 4px rgba(53, 50, 50, 0.5);
+margin-top:40px;
+margin-bottom:30px;
+text-align: center;
+}
+.card img
+{
+padding:5px;
+}
+.card:hover
+{
+  border:1px solid darkcyan;
+box-shadow: 6px 6px 6px rgba(18, 167, 212, 0.7);
+}
+.img-responsive {
+  width: 100%;
+  max-height:200px!important;
+}
+</style>
+
+</head>
+<body>
+  
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top"><!-- navbar-default-->
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="button.html">button</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron" style="margin-top:5%;">
+          <h1>Bootstrap Tutorial</h1>      
+          <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+        </div>
+      </div>
+<div class="row">
+    <div class="col-md-offset-1 col-md-3">
+        <div class="card">
+            <img src="img1.jpg" alt="img1" class="img-rounded" width="200px" height="200px">
+            <div class="bg-success">
+              <h2>About</h2>
+            </div>
+          
+                <p class="text-left well-sm">Similar to the contextual text color classes,
+                   easily set the background of an element to any contextual 
+                   class. Anchor components will darken on hover, just like 
+                   the text classes.</p>
+              
+        </div>
+      </div>
+     
+        <div class="col-md-offset-1 col-md-3">
+            <div class="card">
+                <img src="img1.jpg" alt="img1" class="img-circle" width="200px" height="200px">
+                <div class="bg-primary">
+                  <h2>About</h2>
+                </div>
+              
+                    <p class="text-justify well-sm">Similar to the contextual text color classes,
+                       easily set the background of an element to any contextual 
+                       class. Anchor components will darken on hover, just like 
+                       the text classes.</p>
+                
+            </div>
+          </div>
+          <div class="col-md-offset-1 col-md-3">
+              <div class="card">
+                  <img src="img1.jpg" alt="img1" class="img-thumbnail" width="170px">
+                  <div class="bg-info">
+                    <h2>About</h2>
+                  </div>
+                
+                      <p class="text-right well-sm">Similar to the contextual text color classes,
+                         easily set the background of an element to any contextual 
+                         class. Anchor components will darken on hover, just like 
+                         the text classes.</p>
+                  
+              </div>
+            </div>
+              
+            <div class="col-md-offset-1 col-md-3">
+                <div class="card">
+                    
+                    <img src="img2.jpg" alt="img1"  class="img-responsive  " >
+                    <div class="bg-info">
+                      <h2>About</h2>
+                    </div>
+                    
+                        <p >Similar to the contextual text color classes,
+                           easily set the background of an element to any contextual 
+                           class. Anchor components will darken on hover, just like 
+                           the text classes.</p>
+                          
+                </div>
+                
+          </div>
+      
+
+        
+        
+
+          </div>
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+          <div class="row text-left">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <h5>Quick links</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="button.html">Button</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <h5>Quick links</h5>
+              <ul class="list-unstyled ">
+                  <li><a href="#">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+               
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <h5>Quick links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="table.html">Table</a></li>
+                
+                </ul>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+              <ul class="list-unstyled list-inline social text-center">
+                <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+              </ul>
+            </div>
+            </hr>
+          </div>
+        </div>	
+          <div class="row copyright">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+             
+              <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="#" target="_blank">pcon</a></p>
+            </div>
+            </hr>
+          </div>	
+       
+      </footer>
+      <!-- ./Footer -->
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js">
+  </script>
+
+</html>

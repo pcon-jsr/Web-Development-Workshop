@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="custom.css">
+</head>
+<body>
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top"><!-- navbar-default-->
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Project name</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="form.html">Form</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="button.html">button</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Nav header</li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+
+<!--  .active	:-Applies the hover color to a particular row or cell
+.success:-	Indicates a successful or positive action
+.info:-	Indicates a neutral informative change or action
+.warning :-	Indicates a warning that might need attention
+.danger :-	Indicates a dangerous or potentially negative action
+.secondary:-	 Indicates a slightly less important action
+.light:-	Light grey table or table row background
+dark:- Dark grey table or table row background-->
+<div class="row">
+<div class="col-md-offset-3 col-md-6 col-xs-12" style="margin-top:5%;">
+<table class=" table table-responsive table-hover table-bordered">
+
+    <thead>
+            <tr class="active">
+                <th class="col-xs-5">College</th>
+                <th class="col-xs-3">Board/Universities</th>
+                <th class="col-xs-2">Passing Year</th>
+                <th class="col-xs-2">Percentage/CGPA</th>
+            </tr>
+    </thead>
+    <tbody>
+            <tr class="success">
+                    <td class="col-xs-5">ABCD</td>
+                    <td class="col-xs-3">CBSE</td>
+                    <td class="col-xs-2">2010</td>
+                    <td class="col-xs-2">10</td>
+            </tr>
+            <tr class="warning">
+                    <td class="col-xs-5">XYZ</td>
+                    <td class="col-xs-3">CBSE</td>
+                    <td class="col-xs-2">2012</td>
+                    <td class="col-xs-2">96</td>
+            </tr>
+            <tr class="danger">
+                    <td class="col-xs-5">PQR</td>
+                    <td class="col-xs-3">XYZ</td>
+                    <td class="col-xs-2">2015</td>
+                    <td class="col-xs-2">80</td>
+            </tr>
+            <tr class="info">
+                    <td class="col-xs-5">QWE</td>
+                    <td class="col-xs-3">XYZ</td>
+                    <td class="col-xs-2">2017</td>
+                    <td class="col-xs-2">75</td>
+            </tr>
+    </tbody>
+
+
+</table>
+</div>
+</div>
+<footer class="footer">
+        <div class="container">
+          <div class="row text-left">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <h5>Quick links</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="button.html">Button</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <h5>Quick links</h5>
+              <ul class="list-unstyled ">
+                  <li><a href="#">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+               
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <h5>Quick links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="table.html">Table</a></li>
+                
+                </ul>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+              <ul class="list-unstyled list-inline social text-center">
+                <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+              </ul>
+            </div>
+            </hr>
+          </div>
+        </div>	
+          <div class="row copyright">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+             
+              <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="#" target="_blank">pcon</a></p>
+            </div>
+            </hr>
+          </div>	
+       
+      </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+    
+ </html>
+    

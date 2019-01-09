@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="custom.css">
+</head>
+<body>
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top"><!-- navbar-default-->
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Project name</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="form.html">Form</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="button.html">button</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Nav header</li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+
+    <!-- Most common form control, text-based input fields. 
+        Includes support for all HTML5 types: text, password,
+         datetime, datetime-local, datetime, datetime-local, date,
+         month, time, week, number, email, url, search, tel, and color.-->
+        <form class="form-horizontal" style="margin-top:5%;">
+                <div class="form-group">
+                  <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputPassword3" class="col-sm-3 control-label">Password</label>
+                  <div class="col-sm-4">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+                        <label for="date1" class="col-sm-3 control-label">Date</label>
+                        <div class="col-sm-4">
+                          <input type="date" class="form-control" id="date1" >
+                        </div>
+                      </div>
+
+
+                <div class="form-group">
+                    <label for="Message" class="col-sm-3 control-label">Message</label>
+                            <div class="col-sm-4">
+                             <textarea class="form-control" rows="3"></textarea>
+                            </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="choice" class="col-sm-3 control-label">Choice</label>
+                        <div class="col-sm-4">
+                     <select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                      </div>
+               </div>
+
+
+
+               <div class="form-group">
+                    <label for="multiplechoice" class="col-sm-3 control-label">Multiple Choices</label>
+                        <div class="col-sm-4">
+                    <div class="checkbox">
+                    <label>
+                      <input type="checkbox" value="1">
+                      Option one is this and that&mdash;be sure to include why it's great
+                    </label>
+                  </div>
+                
+                  <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="2">
+                          Option two is this and that&mdash; include why it's great
+                        </label>
+                      </div>
+                  <div class="checkbox disabled">
+                    <label>
+                      <input type="checkbox" value="" disabled>
+                      Option two is disabled
+                    </label>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                        <label for="radibutton" class="col-sm-3 control-label">Choose only one</label>
+                            <div class="col-sm-4">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                      Option one is this and that&mdash;be sure to include why it's great
+                    </label>
+                  </div>
+
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                      Option two can be something else and selecting it will deselect option one
+                    </label>
+                  </div>
+
+                  <div class="radio disabled">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                      Option three is disabled
+                    </label>
+                  </div>
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+                  <div class="col-sm-offset-3 col-sm-4">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox"> Remember me
+                      </label>
+                    </div>
+                  </div>
+                </div>
+   
+                <div class="form-group">
+                  <div class="col-sm-offset-3 col-sm-4">
+                    <button type="submit" class="btn btn-success">Sign in</button>
+                  </div>
+                </div>
+              </form>
+
+
+              <footer class="footer">
+                    <div class="container">
+                      <div class="row text-left">
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                          <h5>Quick links</h5>
+                          <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="form.html">Form</a></li>
+                            <li><a href="table.html">Table</a></li>
+                            <li><a href="button.html">Button</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                          <h5>Quick links</h5>
+                          <ul class="list-unstyled ">
+                              <li><a href="#">Home</a></li>
+                            <li><a href="form.html">Form</a></li>
+                            <li><a href="table.html">Table</a></li>
+                           
+                          </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                            <h5>Quick links</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="form.html">Form</a></li>
+                                <li><a href="table.html">Table</a></li>
+                            
+                            </ul>
+                          </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                          <ul class="list-unstyled list-inline social text-center">
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                          </ul>
+                        </div>
+                        </hr>
+                      </div>
+                    </div>	
+                      <div class="row copyright">
+                        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                         
+                          <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="#" target="_blank">pcon</a></p>
+                        </div>
+                        </hr>
+                      </div>	
+                   
+                  </footer>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js">
+  </script>
+
+</html>
