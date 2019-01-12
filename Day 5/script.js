@@ -25,15 +25,6 @@ document.getElementById('window').value = result;
 
 
 
-// https://www.producthunt.com/
-
-
-
-
-https://goo.gl/forms/mbevC0qQtaxUXbeU2
-
-
-
 
 
 
